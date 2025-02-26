@@ -1,13 +1,13 @@
-import NavBar from "./components/navBar/NavBar"
-
+import NavBar from "./components/navBar/NavBar";
+import Hero from "./components/hero/Hero";
 
 function App() {
-
   return (
     <>
-     <NavBar/>
+      <NavBar />
+      <Hero />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
